@@ -1,0 +1,36 @@
+.naglowek
+{
+    width: 90%;
+    height: 120px;
+    font-size: 20px;
+    position: relative;
+}
+
+.blok_prawy
+{
+    width: 30%;
+    height: 300px;
+    top: 120px;
+    right: 10%;
+    background-color: orange;
+    position: absolute;
+}
+
+.blok_lewy
+{
+    width: 60%;
+    height: 300px;
+    top: 120px;
+    left: 0;
+    background-color: palegreen;
+    position: absolute;
+}
+.stopka
+{
+    width: 90%;
+    height: 80px;
+    position: absolute;
+    background-color: darkviolet;
+    top: 420px;
+    left: 0;
+}

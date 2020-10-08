@@ -1,0 +1,17 @@
+
+.box
+{
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.lewy
+{
+    width: 40%;
+    background-color: lightblue;
+}
+.prawy
+{
+    width: 60%;
+    background-color: chocolate;
+}

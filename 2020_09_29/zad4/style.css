@@ -1,0 +1,19 @@
+body{
+    background-color: wheat;
+}
+.div{
+    width: auto;
+    min-width: 33%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.left{
+    background-color: tomato;
+}
+.middle{
+    background-color: teal;
+}
+.right{
+    background-color: skyblue;
+}
