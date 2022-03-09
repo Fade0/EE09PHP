@@ -1,0 +1,7 @@
+SELECT nazwa,cena FROM uslugi
+
+SELECT SUM(cena) FROM uslugi
+
+SELECT  nazwa from uslugi
+
+UPDATE `uslugi` SET `cena` = '30' WHERE `uslugi`.`id` = 3

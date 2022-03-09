@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Stadnina "Stokrotka"</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <div class="baner">
+        <img src="logo.gif" alt="Nasza Stadnina"><br>
+        <div class="nawigacja">
+            <a href="index.html">Strona główna</a>
+            <a href="kontakt.html">Kontant do nas</a>
+            <a href="nagrody.html" target="_blank">Nasz nagrody</a>
+
+        </div>
+    </div>
+    <div class="main">
+    <div class="boczny">
+        <p>"Doskonały odpoczynek i relaks, z dala od miejskiego zgiełku, zapewnia naturalne położenie naszej stadniny – pośród lasu, wokół dzikiej przyrody, zwierząt. Malowniczy krajobraz okolicy dopełniają pobliskie jeziora, rezerwaty przyrody i szerokie, leśne trakty.</p>
+
+    </div>
+    <h1>Witaj na stadninie Stokrotka!</h1>
+            <h3>Sprawdź, jakie konie są w naszej stadninie! Kliknij na miniaturę konia, by zobaczyć jego zdjęcie!</h3>
+        <div class="kontener" id="zdjecie-konia">
+            <img src="konrad.jpg" id="dowolne_id">
+            <h2 id="imie"></h2>
+        </div>
+        <div class="kontener" id="konie-miniaturki">
+            <img src="konrad.jpg" alt="Konrad" onclick="zamien(this.id)"       id="1">
+            <img src="diko.jpg" alt="Diko" onclick="zamien(this.id)"           id="2">
+            <img src="strzalka.jpg" alt="Strzałka" onclick="zamien(this.id)"   id="3">
+            <img src="dekada.jpg" alt="Dekada" onclick="zamien(this.id)"       id="4">
+        </div>
+    
+    </div>
+    <div class="stopka">
+        Wykonał: Bin Dżin Fidżin
+    </div>
+</body>
+</html>

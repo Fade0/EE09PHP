@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+    font-family: Tahoma;
+    margin: 0px;
+    padding: 0px;
+}
+.baner{
+    background-color: #e4ee3a;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.lewy{
+    background-color: #8ce6a3;
+    width: 25%;
+    height: 700px;
+    float:left;
+}
+.lewy p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.lewy ol{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.lewy h2{
+    text-align: center;
+    padding: 15px;
+}
+tr{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+}
+table{
+    margin-top: 30px;
+    padding-left: 250px;
+}
+.uszkodzone{
+    background-color: red;
+    color: white;
+}
+.gotowe{
+    background-color: green;
+    color: white;
+}
+.prawy{
+    float: left;
+    text-align: center;
+    width:75%;
+}
+.stopka{
+    float: left;
+    background-color: #e4ee3a;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}

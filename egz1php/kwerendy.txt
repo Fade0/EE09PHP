@@ -1,0 +1,5 @@
+SELECT imie, nazwisko FROM pracownicy join zmiany WHERE pracownicy.id=pracownik_id and zmiany.data_zmiany="2021-01-13"
+
+SELECT nazwa, ilosc_produkcja,ilosc_uszkodzone,ilosc_gotowe FROM zlecenia_mag ORDER BY pilnosc DESC
+
+INSERT INTO zlecenia_mag VALUES (6,"krzeslo",21,30,36,7)

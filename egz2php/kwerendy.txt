@@ -1,0 +1,4 @@
+SELECT miasto_zal,miasto_rozl,ladunek,firma FROM zlecenia
+
+CREATE USER 'spedytor'@'localhost' IDENTIFIED BY 'Sp3dyt0r!'
+
